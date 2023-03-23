@@ -21,12 +21,7 @@ Add the following dependencies to your pom.xml file:
 <dependency>
     <groupId>com.twilio.sdk</groupId>
     <artifactId>twilio</artifactId>
-    <version>7.62.0</version>
-</dependency>
-<dependency>
-    <groupId>com.twilio.sdk</groupId>
-    <artifactId>twilio-java-sdk</artifactId>
-    <version>8.18.0</version>
+    <version>8.8.0</version>
 </dependency>
 
 Create a new file called application.properties in the src/main/resources folder, and add the following lines to it, replacing your-account-sid and your-auth-token with your Twilio API key and secret:
